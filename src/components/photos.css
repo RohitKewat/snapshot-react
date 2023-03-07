@@ -1,0 +1,27 @@
+
+h1,h2{
+    text-align: center;
+    margin: 20px;
+
+}
+.search{
+    text-align: center;
+}
+.photos{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 16rem;
+    margin-right: 16rem;
+
+}
+.baR{
+    text-align: center;
+    margin: 20px;
+
+}
+.IMAGE:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
