@@ -52,17 +52,17 @@ const GetPhotos = () => {
           placeholder="search"
           onChange={(e) => (searchdata.current = e.target.value)}
         />
-        <button onClick={() => setsearch(searchdata.current)}>seach</button>
+        <button onClick={() => setsearch(searchdata.current)} className='btn'>search</button>
       </div>
       <section className="baR">
-        <button onClick={()=>setsearch("mountain")}>Mountain</button>
-        <button onClick={()=>setsearch("beaches")}>Beaches</button>
-        <button onClick={()=>setsearch("birds")}>Birds</button>
-        <button onClick={()=>setsearch("food")}>Food</button>
+        <button onClick={()=>setsearch("mountain")} className='btn' >Mountain</button>
+        <button onClick={()=>setsearch("beaches")} className='btn'>Beaches</button>
+        <button onClick={()=>setsearch("birds")} className='btn'>Birds</button>
+        <button onClick={()=>setsearch("food")} className='btn'>Food</button>
 
       </section>
       <div>
-        <h2> {`${search}  Pictures`} </h2>
+        <h2> {`${search}  pictures`} </h2>
       </div>
       <section className="photos">
         {imagedata.map((imageurl, key) => {

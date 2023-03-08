@@ -19,9 +19,21 @@ h1,h2{
 .baR{
     text-align: center;
     margin: 20px;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 100px;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
 
 }
 .IMAGE:hover{
     transform: scale(1.2);
     cursor: pointer;
+}
+.btn{
+    background-color :greenyellow;
+    font-weight: 800 ;
+    width: 5rem;
 }
